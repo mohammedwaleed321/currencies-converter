@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>currency converter</title>
+        <link rel="icon" href="icons/icon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1>currency converter</h1>
+                <div class="amount">
+                    <label>amount of money</label>
+                    <br>
+                    <input id="amount" name="amount" type="number" min="1">
+                    <br>
+                    <label for="from">From</label>
+                    <br>
+                </div>
+                <div class="coins1">
+                    <select id="coins1">
+                    <option id="option"><button>dollar</button></option>
+                    <option id="option"><button>Egyptian pound</button></option>
+                    <option id="option"><button></button>euro</option>
+                    <option id="option"><button></button>riyal</option>
+                </select>
+                </div>
+                <br>
+                <div class="coins2">
+                    <label for="To">To</label>
+                <br>
+                <select id="coins2">
+                    <option id="option"><button>dollar</button></option>
+                    <option id="option"><button>Egyptian pound</button></option>
+                    <option id="option"><button></button>euro</option>
+                    <option id="option"><button></button>riyal</option>
+                </select>
+                
+                </div>
+                <br>
+                <div class="convert">
+                    <button onclick="generate()">convert<img src="images/convert image.jpg" alt="convert image" width="30px" height="30px"></button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
